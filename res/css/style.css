@@ -118,7 +118,7 @@ margin: 0 auto;
 
 .skills-holder {
     /* width:60%; */
-    padding: 4rem 15rem;
+    padding: 5% 10%;
 }
 .skill {
     margin-bottom: 15px;
@@ -298,10 +298,6 @@ h2:after{
         padding-top: 20%;
         font-size: 1.2rem;
     }
-
-    .skills-holder {
-        padding: 4rem 6rem;
-    }
 }
 
 
@@ -313,14 +309,11 @@ h2:after{
 
     .education__item--image {
         height: 90px;
+        margin-bottom: 15px;
     } 
 
     .education__item--header{
         font-size: .9rem;
-    }
-
-    .skills-holder {
-        padding: 2rem 3rem;
     }
 
     .section-work {
@@ -349,8 +342,8 @@ h2:after{
     }
 
     .about-paragraph{
-        padding: 8rem 1rem;
-        font-size: 1.2rem;
+        padding: 10rem .5rem;
+        font-size: 1rem;
     }
     .section-about {
         height: 32rem;
@@ -376,6 +369,10 @@ h2:after{
 
     .education__item--image {
         height: 60px;
+    }
+
+    .skill label {
+        font-size: 15px;
     }
 
     .work-container {
