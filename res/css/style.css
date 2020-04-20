@@ -84,23 +84,26 @@ background-color: var(--color-dark-blue);
     display: block;
 }
 
-.section-about {
-  position: relative;
-  height: 400px;
-  width: 100%;
-  padding-top: 18rem;
-  padding-left: 4rem;
-  margin-right: 3rem;
-  background-image: 
-  linear-gradient(rgba(11, 11, 11, 0.433),
-  rgba(1, 1, 1, 0.159)),
-  url(/myPortfolio/res/img/bg-img.jpeg);
-  background-position: center;
-  background-size: cover;
-  color: white;
-  font-weight: 900;
+
+.section-about{
+    position: relative;
+    height: 650px;
+    width: 100%;
+    float: left;
+    clear: both;
+    display: flex;
 }
- 
+
+.section-about .col-1{
+  margin-top: 18rem;
+  margin-left: 4rem;
+  margin-right: 3rem;
+  max-width:700px;
+}
+.section-about .col-2{
+    flex: 1;
+}
+
 .about-paragraph{
     margin: 1rem 0;
     text-align: left;
@@ -600,7 +603,7 @@ h2,
 
 
  .skills-holder .col-1{
-  width: 350px;
+  width: 300px;
  }
 
 
