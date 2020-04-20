@@ -1,29 +1,5 @@
-//Time line 
 
-$('ul#time-line li').each(function(){			
-			var stop = $(window).scrollTop() + $(window).height()/1.2;
-			var litop = $(this).offset().top;
-			if (stop > litop){
-				$(this).addClass('visibility');
-			}			
-		});
-		$(window).scroll(function(){	
-			$('ul#time-line li').each(function(){			
-				var stop = $(window).scrollTop() + $(window).height()/1.2;
-				var litop = $(this).offset().top;
-				if (stop > litop){
-					$(this).addClass('visibility');
-				} else{
-					$(this).removeClass('visibility');
-				};
-				console.log(litop+' - '+stop);
-			});
-		});
-
- 
 //skills
-
-
 $(document).ready(function () {
     function animateSkills() {
         if ($('.skill').length > 0) {
@@ -38,18 +14,18 @@ $(document).ready(function () {
             });
         }
     }
-    
     animateSkills();
-    
+});
+
+ 
+  
+//nav
+let mainNav = document.getElementById('js-menu');
+let navBarToggle = document.getElementById('js-navbar-toggle');
+
+navBarToggle.addEventListener('click', function () {
+  mainNav.classList.toggle('active');
 });
 
 
-//nav 
-
-var waypoint = new Waypoint({
-  element: document.getElementById('waypoint'),
-  handler: function(direction) {
-    console.log('Scrolled to waypoint!')
-  }
-})
 
