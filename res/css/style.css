@@ -28,9 +28,8 @@ body {
     line-height: 1.7;
     color: var(--color-dark-blue);
 }
-
  
-
+ 
 
 /* ------------- LAYOUT ------------- */
 
@@ -95,8 +94,8 @@ background-color: var(--color-dark-blue);
 }
 
 .section-about .col-1{
-  margin-top: 18rem;
   margin-left: 4rem;
+  margin-top: 18rem;
   margin-right: 3rem;
   max-width:700px;
 }
@@ -142,15 +141,16 @@ background-color: var(--color-dark-blue);
     flex-grow: 1;
     flex-wrap: wrap;
     text-align: center;
-
+    width: 100%;
+    margin: 0 auto;
 }
+ 
 
 .education__item{
     display: flex;
     flex-direction: column;
     flex: 1;
     margin: 0 2rem;
-    width: 250px;
 }
 
 .education__item--header{
@@ -178,14 +178,7 @@ flex-direction: column;
 
 .skills-img--container{
     width: auto;
-    margin-bottom: 3rem;
-    /* height: 650px; */
-}
-
-.section-skills h1{
-  z-index: 1;
-  margin-left: 4rem;
-  margin-top: 8rem;
+    margin: 6rem  0  5rem  4rem ;
 }
 
 .section-skills{
@@ -193,20 +186,20 @@ margin: 0 auto;
 }
     
 .skills-holder {
-margin:4rem;
+margin-top: 4rem;
 display: grid;
-grid-template-columns: repeat(2, 1fr);
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 grid-template-rows: 1fr;
-grid-column-gap: 5rem;
-grid-row-gap: 0px;
+grid-column-gap: 2rem;
 }
 
 .skills-holder .col-1 {
-grid-area: 1 / 1 / 2 / 2;
+/* grid-area: 1 / 1 / 2 / 2; */
+ 
 }
 
 .skills-holder .col-2 {
-grid-area: 1 / 2 / 2 / 3;
+/* grid-area: 1 / 2 / 2 / 3; */
 }
 
 .skill {
@@ -250,7 +243,7 @@ width: 0;
 
 
 .section-work{
-padding: 5rem 0 6rem 5rem;;
+padding: 5rem 0 6rem 4rem;;
 background-image: url(/myPortfolio/res/img/work.jpeg);
 background-position: left;
 }
@@ -355,8 +348,6 @@ margin-top: 10px;
 }
 
 
-
-
 .display-1{
 width: 10%;
 line-height: .6em;
@@ -365,16 +356,7 @@ color: var(--color-dark-blue);
 font-weight: 900;
 margin-bottom: 1.5rem;
 }
-
-.display-2{
-width: 10%;
-line-height: .8em;
-z-index: 200;
-font-size: 6rem;  
-color: var(--color-dark-blue);
-font-weight: 900;
-}
-
+ 
 
 .display-1:after {
 display: block;
@@ -577,7 +559,8 @@ padding-top: 15rem;
 h2,
 .display-1{
  font-size: 3rem;
-  width: 20%;
+ line-height: .9;
+ width: 20%;
 }
 
 .about-paragraph{
@@ -601,20 +584,26 @@ h2,
  }
 
 
-
- .skills-holder .col-1{
-  width: 300px;
- }
-
-
- .skills-holder .col-2{
-    grid-area: 2/1;
- }
-
  .work-container{
  margin-left: -1rem;
- margin-right: 3rem;
+ margin-right: 2rem;
  }
+
+.section-about .col-1,
+.section-education--col-1,
+.skills-img--container{
+margin-left: 2rem;
+
+}
+.skills-img--container{
+    margin-top: 4rem;
+}
+.section-work,
+.footer{
+    padding-left: 2rem;
+    padding-top: 4rem;
+}
+
  
  
   
