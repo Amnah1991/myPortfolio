@@ -59,6 +59,15 @@ background-color: var(--color-dark-blue);
     color: white;
 }
 
+.nav-links:hover,
+#aboutMeLink:target
+{
+    color: var(--color-blue);
+}  
+
+ 
+
+ 
 .main-nav li {
     text-align: center;
     margin: 15px auto;
@@ -104,7 +113,6 @@ background-color: var(--color-dark-blue);
 }
 
 .about-paragraph{
-    margin: 1rem 0;
     text-align: left;
     font-size: 1.4rem;
     font-weight: 300;
@@ -460,12 +468,6 @@ padding-top: 15rem;
     .navbar-toggle {
         display: none;
     }
-
-    .logo:hover,
-    .nav-links:hover {
-        color: var(--color-blue);
-    }  
-     
      
 }
 
