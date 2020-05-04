@@ -90,32 +90,31 @@ background-color: var(--color-dark-blue);
 
 .active {
     display: block;
+    transition: all .1s;
 }
 
 
 .section-about{
     position: relative;
-    height: 680px;
     width: 100%;
     float: left;
     clear: both;
-    display: flex;
 }
 
 .section-about .col-1{
-  margin-left: 4rem;
-  margin-top: 15rem;
-  margin-right: 3rem;
-  max-width:700px;
-}
-.section-about .col-2{
-    flex: 1;
+  padding: 20rem 2rem 6rem 4rem;
+  background-image: 
+  linear-gradient(127deg, rgba(255, 255, 255, 0.007), rgba(2, 179, 228, 0.425)),
+  url(/myPortfolio/res/img/bg3.jpeg);
+  background-position: right;
+  background-blend-mode: soft-light;
+  object-fit: cover;
 }
 
 .about-paragraph{
     text-align: left;
     font-size: 1.4rem;
-    font-weight: 300;
+    font-weight: 700;
 }
 
 .right-img{
@@ -217,11 +216,12 @@ margin-right: 50px;
 
 .skill label {
 font-size: 20px;
-font-weight: 900;
+font-weight: 400;
 line-height: 30px;
+color: var(--color-dark-blue);
 }
 .skill-bar {
-background-color: #343434;
+background-color: var(--light-grey);
 border-radius: 5px;
 height: 12px;
 width: 100%;
@@ -263,6 +263,10 @@ background-position: left;
 
 .work-item{
    font-size: 1.1rem;
+}
+
+.work-item strong{
+    color: var(--color-gery-blue);
 }
 
 .work-item::before{
@@ -340,9 +344,9 @@ margin-bottom: .8rem;
 
 h2{
 font-weight: 900;
-line-height:  4.5rem;
+line-height:  3.5rem;
 padding-top: 10px;
-font-size: 5rem;
+font-size: 4rem;
 width:10%
 }
 
@@ -359,7 +363,7 @@ margin-top: 10px;
 .display-1{
 width: 10%;
 line-height: .8em;
-font-size: 6rem;
+font-size: 4rem;
 color: var(--color-dark-blue);
 font-weight: 700 !important;
 margin-bottom: 1.5rem;
@@ -520,15 +524,6 @@ padding-top: 15rem;
     }
 
     
-
-    .heading-large {
-        font-size: 2rem;
-    }
-    .heading-small {
-        font-size: 1rem;
-    }
-
-    
     .skill label {
         font-size: 15px;
     }
@@ -591,11 +586,16 @@ h2,
  margin-right: 2rem;
  }
 
-.section-about .col-1,
+
 .section-education--col-1,
 .skills-img--container{
 margin-left: 2rem;
 
+}
+
+.section-about .col-1{
+padding-left: 2rem;
+padding-top: 13rem;
 }
 .skills-img--container{
     margin-top: 4rem;
