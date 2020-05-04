@@ -111,10 +111,13 @@ background-color: var(--color-dark-blue);
   object-fit: cover;
 }
 
+ 
+
 .about-paragraph{
     text-align: left;
     font-size: 1.4rem;
     font-weight: 700;
+    font-variant: small-caps;
 }
 
 .right-img{
