@@ -104,7 +104,7 @@ background-color: var(--color-dark-blue);
 .section-about .col-1{
   padding: 20rem 2rem 6rem 4rem;
   background-image: 
-  linear-gradient(127deg, rgba(255, 255, 255, 0.007), rgba(2, 179, 228, 0.425)),
+  /* linear-gradient(127deg, rgba(255, 255, 255, 0.007), rgba(2, 179, 228, 0.425)), */
   url(/myPortfolio/res/img/bg3.jpeg);
   background-position: right;
   background-blend-mode: soft-light;
@@ -251,23 +251,20 @@ width: 0;
 
 
 .section-work{
-padding: 5rem 0 6rem 4rem;;
+padding: 5rem 0 6rem 4rem;
 background-image: url(/myPortfolio/res/img/work.jpeg);
 background-position: left;
 }
 
 .work-container{
     list-style: none;
-    margin: 2rem 0;
+    margin: 4rem -1rem;
 }
 
 .work-item{
    font-size: 1.1rem;
 }
 
-.work-item strong{
-    color: var(--color-gery-blue);
-}
 
 .work-item::before{
     content: "";
@@ -526,6 +523,7 @@ padding-top: 15rem;
     
     .skill label {
         font-size: 15px;
+      
     }
 
     .work-container {
