@@ -247,7 +247,7 @@ width: 0;
 
 .section-work{
 padding: 5rem 0 6rem 4rem;
-background-image: url(/res/img/work.jpeg);
+background-image: url(../../res/img/work.jpeg);
 background-position: left;
 }
 
