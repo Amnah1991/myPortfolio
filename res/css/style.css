@@ -494,7 +494,6 @@ padding-top: 15rem;
 
     .section-about{
     margin-top: 5rem !important;
-    flex-direction: column;
     }
 
     .section-about .col-2{
@@ -529,9 +528,7 @@ padding-top: 15rem;
       
     }
 
-    .work-container {
-        margin: 1rem;
-    }
+   
     .work-item {
         font-size: .9rem;
     }
@@ -583,7 +580,7 @@ h2,
 
 
  .work-container{
- margin-left: -1rem;
+ margin-left: -.5rem;
  margin-right: 2rem;
  }
 
