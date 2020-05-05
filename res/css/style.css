@@ -45,7 +45,7 @@ background-color: var(--color-dark-blue);
 
 .navbar {
   position: relative;
-  padding: .5rem 0;
+  padding: .2rem 0;
 }
 
 .main-nav {
@@ -101,8 +101,8 @@ background-color: var(--color-dark-blue);
     clear: both;
 }
 
-.section-about .col-1{
-  padding: 20rem 2rem 8rem 4rem;
+.section-about{
+  padding-top: 20rem;
   background-image: 
   linear-gradient(127deg, rgba(255, 255, 255, 0.007), rgba(2, 179, 228, 0.425)),
   url(/res/img/bg3.jpeg);
@@ -111,7 +111,11 @@ background-color: var(--color-dark-blue);
   object-fit: cover;
 }
 
- 
+.section-about .col-1{
+background-color: rgba(2, 179, 228, 0.221);
+width: 75%;
+padding: 4rem;
+}
 
 .about-paragraph{
     text-align: left;
@@ -246,8 +250,9 @@ width: 0;
 
 
 .section-work{
-padding: 5rem 0 6rem 4rem;
-background-image: url(../../res/img/work.jpeg);
+padding: 5rem 0 2rem 4rem;
+background-image: url(/res/img/work.jpeg) !important;
+background-color: var(--light-grey);
 background-position: left;
 }
 
@@ -268,7 +273,7 @@ background-position: left;
     width: 1rem;
     margin-top: .7rem;
     background-color: var(--color-gery-blue);
-    -webkit-mask-image:url(/myPortfolio/res/img/chevron-thin-right.svg);
+    -webkit-mask-image:url(/res/img/chevron-thin-right.svg);
     -webkit-mask-size:cover;
 }
 
@@ -488,10 +493,7 @@ padding-top: 15rem;
     margin-top: 5rem !important;
     }
 
-    .section-about .col-2{
-     display: none;
-    }
-        
+  
     .section-education--col-2 .row{
     flex-wrap: wrap;
     }
@@ -582,10 +584,12 @@ h2,
 margin-left: 2rem;
 
 }
+.section-about{
+    padding-top: 12rem;
+}
 
 .section-about .col-1{
-padding-left: 2rem;
-padding-top: 13rem;
+padding: 2rem;
 }
 .skills-img--container{
     margin-top: 4rem;
