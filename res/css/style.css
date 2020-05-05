@@ -105,7 +105,7 @@ background-color: var(--color-dark-blue);
   padding: 20rem 2rem 8rem 4rem;
   background-image: 
   linear-gradient(127deg, rgba(255, 255, 255, 0.007), rgba(2, 179, 228, 0.425)),
-  url(/myPortfolio/res/img/bg3.jpeg);
+  url(/res/img/bg3.jpeg);
   background-position: right;
   background-blend-mode: soft-light;
   object-fit: cover;
@@ -202,15 +202,7 @@ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 grid-template-rows: 1fr;
 grid-column-gap: 2rem;
 }
-
-.skills-holder .col-1 {
-/* grid-area: 1 / 1 / 2 / 2; */
  
-}
-
-.skills-holder .col-2 {
-/* grid-area: 1 / 2 / 2 / 3; */
-}
 
 .skill {
 margin-bottom: 15px;
@@ -255,7 +247,7 @@ width: 0;
 
 .section-work{
 padding: 5rem 0 6rem 4rem;
-background-image: url(/myPortfolio/res/img/work.jpeg);
+background-image: url(/res/img/work.jpeg);
 background-position: left;
 }
 
