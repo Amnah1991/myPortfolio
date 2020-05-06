@@ -102,7 +102,7 @@ background-color: var(--color-dark-blue);
 }
 
 .section-about{
-  padding-top: 20rem;
+  padding-top: 16rem;
   background-image: 
   linear-gradient(127deg, rgba(255, 255, 255, 0.007), rgba(2, 179, 228, 0.425)),
   url(/myPortfolio/res/img/bg3.jpeg);
@@ -114,7 +114,7 @@ background-color: var(--color-dark-blue);
 .section-about .col-1{
 background-color: rgba(2, 179, 228, 0.221);
 width: 75%;
-padding: 4rem;
+padding: 5rem 4rem;
 }
 
 .about-paragraph{
@@ -192,7 +192,7 @@ flex-direction: column;
 
 .skills-img--container{
     width: auto;
-    margin: 6rem  0  5rem  4rem ;
+    margin: 6rem  0  6rem  4rem ;
 }
 
 .section-skills{
