@@ -105,14 +105,14 @@ background-color: var(--color-dark-blue);
   padding-top: 16rem;
   background-image: 
   linear-gradient(127deg, rgba(255, 255, 255, 0.007), rgba(2, 179, 228, 0.425)),
-  url(/myPortfolio/res/img/bg3.jpeg);
+  url("../img/bg3.png");
   background-position: right;
   background-blend-mode: soft-light;
   object-fit: cover;
 }
 
 .section-about .col-1{
-background-color: rgba(2, 179, 228, 0.221);
+background-color: rgba(255, 255, 255, 0.4);
 width: 75%;
 padding: 5rem 4rem;
 }
